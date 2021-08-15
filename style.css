@@ -1,0 +1,41 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex-colors {
+    text-align: center;
+}
+
+.hex-colors h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 3s infinite alternate;
+}
+
+.hex-colors h2 {
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+@keyframes changecolor {
+    0%{
+        color: yellow;
+    }
+    33%{
+        color: grey;
+    }
+    66%{
+        color: orangered;
+    }
+    100%{
+        color: indianred;
+    }
+}
